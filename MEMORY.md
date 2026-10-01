@@ -25,7 +25,14 @@ Cập nhật lần cuối: [FILL: ngày khởi tạo] — bootstrap bộ instruc
 
 ## 2. Tasks done
 
-[FILL: ghi nhận sau khi có task hoàn thành]
+### 2026-10-02 — Bootstrap PR #1 (merged)
+
+- Tạo branch `codex/bootstrap-instruction-files` từ `main`, push + mở PR #1.
+- Nội dung: 8 file instruction mới (AGENTS, CLAUDE, HEARTBEAT, IDENTITY, MEMORY, SOUL, TOOLS, USER) — 452 dòng, 0 xóa.
+- Không động `LICENSE` và `README.md`.
+- PR URL: https://github.com/diepxuan/warmdream.org/pull/1
+- Trạng thái: MERGED vào main lúc 2026-10-01T17:28:13Z (squash, merge commit `b319a15`).
+- Branch `codex/bootstrap-instruction-files` đã xóa trên remote.
 
 ---
 
