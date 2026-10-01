@@ -12,12 +12,12 @@ File này ghi chú các chi tiết riêng của môi trường dự án này. Sk
 
 | Thành phần | Giá trị | Ghi chú |
 |------------|---------|---------|
-| Loại site | [FILL] | |
-| Hosting | [FILL: GitHub Pages / Vercel / Netlify / ...] | |
-| CNAME | [FILL] | |
-| Repo | [FILL: git remote URL] | |
-| Pages URL mặc định | [FILL] | dùng khi cần xác minh hosting đang phục vụ |
-| Local preview | [FILL: lệnh khởi động server local + URL] | |
+| Loại site | Static HTML/CSS | Không framework, không build step |
+| Hosting | GitHub Pages | Build từ `main` (root), chưa bật — Sếp sẽ cấu hình |
+| CNAME | chưa có | Sếp bổ sung khi quyết định domain riêng |
+| Repo | `https://github.com/diepxuan/warmdream.org.git` | |
+| Pages URL mặc định | `https://diepxuan.github.io/warmdream.org/` | dùng khi cần xác minh Pages đang phục vụ |
+| Local preview | `python3 -m http.server 8080` từ thư mục dự án, rồi mở `http://localhost:8080` | xem `README.md` mục Cách sử dụng |
 
 ## Phân nhóm lệnh theo quyền
 
@@ -27,6 +27,7 @@ File này ghi chú các chi tiết riêng của môi trường dự án này. Sk
 - `git status/log/diff/show/ls-files` — git read-only
 - `python3 -m http.server <port>` chạy nền tạm để preview; dừng khi xong
 - `curl` GET (không mutate)
+- `web_fetch` đọc nguồn sự thật (masothue.com, diepxuan.com, WIPO, v.v.)
 
 **Ghi local trong workspace (KHÔNG cần hỏi Sếp):**
 
@@ -61,4 +62,7 @@ File này ghi chú các chi tiết riêng của môi trường dự án này. Sk
 
 ## Lưu ý verify sau khi sửa
 
-[FILL: checklist verify riêng — preview local, asset path, link, responsive, in A4 nếu có dossier, v.v.]
+- Trang chính: preview local bằng `python3 -m http.server` rồi kiểm tra 4 section (`#top`, `#brand`, `#trademark`, `#contact`); kiểm tra asset đúng (`assets/warm-dream-*.{png,svg}`).
+- Token CSS: mọi thay đổi màu/typography phải qua token trong `:root` của `assets/styles.css`; KHÔNG hardcode ngoài token.
+- Thông tin pháp lý: trước khi đổi, đối chiếu nguồn `https://masothue.com/3101159641-cong-ty-tnhh-warmdream`; Sếp duyệt trước khi commit.
+- Liên kết `https://www.diepxuan.com/` (CTA liên hệ) — không phải link nội bộ, chỉ xác nhận còn live khi verify.
