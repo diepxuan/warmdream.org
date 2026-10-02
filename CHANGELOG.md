@@ -10,8 +10,14 @@
 - Thêm tài liệu hướng dẫn sử dụng và triển khai GitHub Pages.
 - Thêm bộ instruction files đầy đủ (AGENTS, SOUL, USER, IDENTITY, TOOLS, MEMORY, HEARTBEAT, CLAUDE).
 
+### Changed
+
+- Loại bỏ section `#trademark` và các tham chiếu nhãn hiệu Warm Dream S, chuyển nhượng nhãn hiệu.
+- Viết lại copy toàn trang theo hướng "thoát thai từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân" thay cho "kế thừa kinh nghiệm Điệp Xuân".
+- Cập nhật nav, stats, hero text, #brand heading, #contact copy trong `index.html`.
+- Đồng bộ `README.md`, `AGENTS.md`, `IDENTITY.md`, `TOOLS.md`, `MEMORY.md`.
+
 ### Notes
 
-- Thương hiệu WarmDream hiện thuộc Công ty TNHH Điệp Xuân; nhãn hiệu sẽ được chuyển nhượng cho Công ty TNHH WarmDream trong tương lai.
 - Brand assets (logo, icon, favicon) dùng lại bộ nhận diện WarmDream hiện có từ `diepxuan/warmdream`.
 - CNAME chưa cấu hình; Sếp sẽ bổ sung khi có kế hoạch domain riêng.

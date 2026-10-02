@@ -37,9 +37,9 @@ KHÔNG chỉ đọc AGENTS.md rồi thao tác luôn. Nếu có xung đột, ưu 
 
 - Website giới thiệu Công ty TNHH WarmDream (MST 3101159641), MST cấp ngày 2026-08-24 tại 241 Trần Hưng Đạo, Phường Đồng Hới, Tỉnh Quảng Trị; người đại diện Trần Ngọc Đức.
 - Ngành nghề chính: Sản xuất thảm, chăn, đệm (mã 1393). Ngoài ra đăng ký nhiều ngành phụ trợ (sợi, dệt, bán buôn, bán lẻ, thiết kế, v.v.).
-- Thương hiệu WarmDream hiện thuộc sở hữu của Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân tại Quảng Bình, hoạt động từ năm 1991. Trong tương lai, nhãn hiệu WarmDream sẽ được chuyển nhượng sang Công ty TNHH WarmDream để chuẩn hoá đơn vị vận hành.
+- Nguồn gốc sản xuất: WarmDream được tách ra từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân tại Quảng Bình, hoạt động từ năm 1991.
 - Triển khai GitHub Pages; repo `diepxuan/warmdream.org`; branch `main` (root). CNAME chưa cấu hình — Sếp sẽ bổ sung khi có kế hoạch domain riêng.
-- Bốn section người dùng nhìn thấy: hero (`#top`), định vị thương hiệu (`#brand`), nhãn hiệu (`#trademark`), liên hệ (`#contact`).
+- Ba section người dùng nhìn thấy: hero (`#top`), định vị thương hiệu (`#brand`), liên hệ (`#contact`).
 - Brand assets (logo, brand icon, favicon) dùng lại bộ nhận diện WarmDream hiện có từ `diepxuan/warmdream`.
 - KHÔNG tự ý thêm form backend, CMS, danh mục sản phẩm; phần catalogue sẽ bổ sung ở bước tiếp theo khi có ảnh và dữ liệu sạch.
 

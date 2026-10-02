@@ -2,7 +2,7 @@
 
 Memory dài hạn cho Bột trên dự án này. Mỗi entry khi có thay đổi cơ chế, sự cố hay bài học đều ghi vào đây. Đọc MEMORY.md trước mọi task lớn để không lặp lại lỗi cũ.
 
-Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây dựng landing page Công ty TNHH WarmDream.
+Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây dựng landing page + loại bỏ nhãn hiệu + viết lại copy Công ty TNHH WarmDream.
 
 ---
 
@@ -14,7 +14,6 @@ Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây d�
 - Brand assets (`assets/warm-dream-*.{png,svg}`) dùng lại bộ từ `diepxuan/warmdream`; chỉ thay khi Sếp phê duyệt asset mới.
 - Workspace root `/data/warmdream-org/`; remote `https://github.com/diepxuan/warmdream.org.git`, branch `main`; mỗi task = 1 branch = 1 PR, không commit thẳng `main`, không tự push/PR/merge.
 - CNAME chưa cấu hình; không tự tạo file CNAME — chờ Sếp.
-- Thương hiệu WarmDream hiện thuộc Điệp Xuân; nhãn hiệu sẽ chuyển nhượng cho Công ty TNHH WarmDream trong tương lai — copy phải phản ánh đúng giai đoạn này.
 
 ---
 
@@ -54,9 +53,19 @@ Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây d�
   - Ngành chính: Sản xuất thảm, chăn, đệm (mã 1393)
 - Files thêm mới: `index.html`, `assets/styles.css`, `assets/warm-dream-{logo,brand,favicon}.{png,svg}`, `LICENSE`, `CHANGELOG.md`, `README.md` (đã thay từ placeholder 1 dòng sang README đầy đủ).
 - Files cập nhật: `AGENTS.md`, `IDENTITY.md`, `TOOLS.md` (điền placeholder project-specific).
-- 4 sections: `#top` (hero + stats + brand card) / `#brand` (định vị + hồ sơ pháp lý) / `#trademark` (lịch sử nhãn hiệu WarmDream thuộc Điệp Xuân, sẽ chuyển nhượng) / `#contact` (CTA Điệp Xuân).
+- 4 sections: `#top` (hero + stats + brand card) / `#brand` (định vị + hồ sơ pháp lý) / `#contact` (CTA Điệp Xuân).
 - KHÔNG tạo CNAME (Sếp chưa cấu hình).
 - Branch: `feat/warmdream-static-site`.
+
+### 2026-10-02 — Loại bỏ nhãn hiệu + viết lại copy (PR #4)
+
+- Sếp yêu cầu loại bỏ thông tin về nhãn hiệu WarmDream (văn bằng bảo hộ Warm Dream S, chuyển nhượng từ Điệp Xuân).
+- Bỏ section `#trademark` trong `index.html` + nav link "Nhãn hiệu" + tham chiếu nhãn hiệu trong hero text, stats, #contact.
+- Đồng bộ tham chiếu trong `README.md`, `CHANGELOG.md`, `AGENTS.md`, `IDENTITY.md`, `TOOLS.md`, `MEMORY.md`.
+- Viết lại copy theo hướng "thoát thai từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân" thay cho "kế thừa kinh nghiệm Điệp Xuân".
+- Cập nhật ở: `index.html` (meta description, title, h1, hero text, #brand h2, benefit-list item 1, #contact copy), `README.md` (intro + nguồn gốc), `AGENTS.md` §2 Domain Knowledge.
+- Cập nhật `CHANGELOG.md` với mục `### Changed` ghi nhận thay đổi copy.
+- Branch: `chore/remove-trademark-section` (sau đó update với commit viết lại copy).
 
 ---
 
@@ -91,14 +100,6 @@ Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây d�
 - Site hiện landing giới thiệu + hồ sơ pháp lý; chưa có catalogue sản phẩm WarmDream.
 - Khi có ảnh và dữ liệu sạch từ Điệp Xuân, mở rộng thêm section catalogue (chờ Sếp yêu cầu).
 
-### 4.4 Cập nhật khi nhãn hiệu WarmDream chuyển nhượng
-
-- Khi Sếp hoàn tất chuyển nhượng nhãn hiệu WarmDream từ Điệp Xuân sang Công ty TNHH WarmDream:
-  - Cập nhật copy trong `#trademark` (đổi từ "sẽ chuyển nhượng" sang "đã chuyển nhượng")
-  - Cập nhật footer (bỏ ghi chú "Kế thừa từ Điệp Xuân")
-  - Cập nhật `README.md` §Notes
-  - Cập nhật `MEMORY.md` §0 quy tắc cố định
-
-### 4.5 Tích hợp Memory directory
+### 4.4 Tích hợp Memory directory
 
 - `memory/` chưa có. Khi cần ghi daily context, tạo `memory/YYYY-MM-DD.md` theo format chuẩn.
