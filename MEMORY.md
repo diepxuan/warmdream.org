@@ -2,7 +2,7 @@
 
 Memory dài hạn cho Bột trên dự án này. Mỗi entry khi có thay đổi cơ chế, sự cố hay bài học đều ghi vào đây. Đọc MEMORY.md trước mọi task lớn để không lặp lại lỗi cũ.
 
-Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây dựng landing page Công ty TNHH WarmDream.
+Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây dựng landing page + loại bỏ nhãn hiệu + viết lại copy Công ty TNHH WarmDream.
 
 ---
 
@@ -56,6 +56,16 @@ Cập nhật lần cuối: 2026-10-02 — bootstrap instruction files + xây d�
 - 4 sections: `#top` (hero + stats + brand card) / `#brand` (định vị + hồ sơ pháp lý) / `#contact` (CTA Điệp Xuân).
 - KHÔNG tạo CNAME (Sếp chưa cấu hình).
 - Branch: `feat/warmdream-static-site`.
+
+### 2026-10-02 — Loại bỏ nhãn hiệu + viết lại copy (PR #4)
+
+- Sếp yêu cầu loại bỏ thông tin về nhãn hiệu WarmDream (văn bằng bảo hộ Warm Dream S, chuyển nhượng từ Điệp Xuân).
+- Bỏ section `#trademark` trong `index.html` + nav link "Nhãn hiệu" + tham chiếu nhãn hiệu trong hero text, stats, #contact.
+- Đồng bộ tham chiếu trong `README.md`, `CHANGELOG.md`, `AGENTS.md`, `IDENTITY.md`, `TOOLS.md`, `MEMORY.md`.
+- Viết lại copy theo hướng "thoát thai từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân" thay cho "kế thừa kinh nghiệm Điệp Xuân".
+- Cập nhật ở: `index.html` (meta description, title, h1, hero text, #brand h2, benefit-list item 1, #contact copy), `README.md` (intro + nguồn gốc), `AGENTS.md` §2 Domain Knowledge.
+- Cập nhật `CHANGELOG.md` với mục `### Changed` ghi nhận thay đổi copy.
+- Branch: `chore/remove-trademark-section` (sau đó update với commit viết lại copy).
 
 ---
 

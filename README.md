@@ -1,12 +1,12 @@
 # Công ty TNHH WarmDream
 
-Website giới thiệu Công ty TNHH WarmDream — đơn vị sản xuất chăn ga gối đệm kế thừa kinh nghiệm Công ty TNHH Điệp Xuân từ năm 1991. Repo chứa bản website tĩnh, tối ưu cho GitHub Pages hoặc static hosting.
+Website giới thiệu Công ty TNHH WarmDream — đơn vị sản xuất nệm, thoát thai từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân. Repo chứa bản website tĩnh, tối ưu cho GitHub Pages hoặc static hosting.
 
 ## Về Công ty TNHH WarmDream
 
 Công ty TNHH WarmDream (MST 3101159641) hoạt động trong ngành sản xuất thảm, chăn, đệm — mã ngành 1393 theo hệ thống ngành kinh tế Việt Nam. Công ty được đăng ký hoạt động tại 241 Trần Hưng Đạo, Phường Đồng Hới, Tỉnh Quảng Trị; người đại diện pháp luật là Trần Ngọc Đức.
 
-Công ty kế thừa kinh nghiệm sản xuất, phân phối chăn ga gối đệm từ Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân, hoạt động trong lĩnh vực chăn ga gối đệm và nội thất phòng ngủ tại Quảng Bình từ năm 1991.
+WarmDream được tách ra từ khâu sản xuất nệm của Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân, hoạt động trong lĩnh vực chăn ga gối đệm và nội thất phòng ngủ tại Quảng Bình từ năm 1991.
 
 Thông tin tham khảo:
 
