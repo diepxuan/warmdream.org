@@ -12,6 +12,5 @@
 
 ### Notes
 
-- Thương hiệu WarmDream hiện thuộc Công ty TNHH Điệp Xuân; nhãn hiệu sẽ được chuyển nhượng cho Công ty TNHH WarmDream trong tương lai.
 - Brand assets (logo, icon, favicon) dùng lại bộ nhận diện WarmDream hiện có từ `diepxuan/warmdream`.
 - CNAME chưa cấu hình; Sếp sẽ bổ sung khi có kế hoạch domain riêng.

@@ -29,7 +29,7 @@ Workspace OpenClaw: chưa có — workspace mới, chờ OpenClaw bootstrap khi 
 
 | Thuộc tính | Giá trị |
 |------------|---------|
-| Trang chính | `index.html` (hero, brand, trademark, contact sections) |
+| Trang chính | `index.html` (hero, brand, contact sections) |
 | Stylesheet | `assets/styles.css` (token WarmDream: nâu/xanh, mobile-first fallback) |
 | Brand assets | `assets/warm-dream-{logo,brand,favicon}.{png,svg}` (dùng lại từ `diepxuan/warmdream`) |
 | Tài liệu kèm theo | `README.md`, `CHANGELOG.md`, bộ 8 file instruction |

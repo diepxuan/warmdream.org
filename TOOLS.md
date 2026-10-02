@@ -62,7 +62,7 @@ File này ghi chú các chi tiết riêng của môi trường dự án này. Sk
 
 ## Lưu ý verify sau khi sửa
 
-- Trang chính: preview local bằng `python3 -m http.server` rồi kiểm tra 4 section (`#top`, `#brand`, `#trademark`, `#contact`); kiểm tra asset đúng (`assets/warm-dream-*.{png,svg}`).
+- Trang chính: preview local bằng `python3 -m http.server` rồi kiểm tra 3 section (`#top`, `#brand`, `#contact`); kiểm tra asset đúng (`assets/warm-dream-*.{png,svg}`).
 - Token CSS: mọi thay đổi màu/typography phải qua token trong `:root` của `assets/styles.css`; KHÔNG hardcode ngoài token.
 - Thông tin pháp lý: trước khi đổi, đối chiếu nguồn `https://masothue.com/3101159641-cong-ty-tnhh-warmdream`; Sếp duyệt trước khi commit.
 - Liên kết `https://www.diepxuan.com/` (CTA liên hệ) — không phải link nội bộ, chỉ xác nhận còn live khi verify.

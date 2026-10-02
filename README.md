@@ -6,17 +6,16 @@ Website giới thiệu Công ty TNHH WarmDream — đơn vị sản xuất chăn
 
 Công ty TNHH WarmDream (MST 3101159641) hoạt động trong ngành sản xuất thảm, chăn, đệm — mã ngành 1393 theo hệ thống ngành kinh tế Việt Nam. Công ty được đăng ký hoạt động tại 241 Trần Hưng Đạo, Phường Đồng Hới, Tỉnh Quảng Trị; người đại diện pháp luật là Trần Ngọc Đức.
 
-Thương hiệu WarmDream hiện thuộc sở hữu của Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân, hoạt động trong lĩnh vực chăn ga gối đệm và nội thất phòng ngủ tại Quảng Bình từ năm 1991. Trong tương lai, nhãn hiệu WarmDream sẽ được chuyển nhượng cho Công ty TNHH WarmDream để chuẩn hoá đơn vị vận hành.
+Công ty kế thừa kinh nghiệm sản xuất, phân phối chăn ga gối đệm từ Công ty TNHH Điệp Xuân — đơn vị có tiền thân là cửa hàng Điệp Xuân, hoạt động trong lĩnh vực chăn ga gối đệm và nội thất phòng ngủ tại Quảng Bình từ năm 1991.
 
 Thông tin tham khảo:
 
 - Hồ sơ pháp lý trên [masothue.com/3101159641](https://masothue.com/3101159641-cong-ty-tnhh-warmdream)
 - Website Công ty TNHH Điệp Xuân: [diepxuan.com](https://www.diepxuan.com/)
-- Trang thương hiệu WarmDream trên Điệp Xuân: [diepxuan.com/warmdream.html](https://www.diepxuan.com/warmdream.html)
 
 ## Mục đích
 
-Trang này dùng để giới thiệu Công ty TNHH WarmDream, trình bày hồ sơ pháp lý, ngành nghề hoạt động và liên hệ qua hệ thống Điệp Xuân trong giai đoạn chuyển nhượng nhãn hiệu.
+Trang này dùng để giới thiệu Công ty TNHH WarmDream, trình bày hồ sơ pháp lý và ngành nghề hoạt động.
 
 ## Cách sử dụng
 
@@ -102,7 +101,6 @@ Các phần cần chỉnh trong `index.html`:
 
 - Nội dung hero thương hiệu tại section `#top`
 - Hồ sơ pháp lý tại section `#brand`
-- Lịch sử nhãn hiệu tại section `#trademark`
 - Liên hệ tại section `#contact`
 
 ## Quyết định thiết kế
@@ -118,7 +116,6 @@ Các phần cần chỉnh trong `index.html`:
 - Không có CMS, chỉnh nội dung bằng code.
 - Không có form backend; CTA hiện dùng link ngoài tới `diepxuan.com`.
 - Bước hiện tại tập trung vào landing pháp lý + giới thiệu; phần catalogue sản phẩm sẽ bổ sung ở bước tiếp theo khi có ảnh và dữ liệu sạch.
-- Thương hiệu WarmDream hiện thuộc Điệp Xuân; nhãn hiệu sẽ chuyển nhượng cho WarmDream trong tương lai — site sẽ cập nhật khi hoàn tất.
 
 ## Troubleshooting
 
